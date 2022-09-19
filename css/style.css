@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #060672;
+    padding: 30px 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    width: 500px;
+    background-color: #010152;
+    margin: auto;
+    color: white;
+    border-radius: 10px;
+    position: relative;
+}
+p {
+    margin: 0px;
+}
+
+
+.Quote-header{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.sub-title{
+    font-size: 18px;
+    padding: 10px 10px;
+    font-weight: 500;
+    padding: 15px;
+}
+.new-quote-btn{
+    margin: auto;
+    margin-bottom: 30px;
+    width: 70%;
+    padding: 0 20px;
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
+    background-size: 200% auto;
+    border: none;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+.new-quote-btn:hover{
+    background-position: right;
+    color: #fff;
+}
+
+/* ------------------------------------------- Circles -------------------------------------- */
+
+.circle-1{
+    position: absolute;
+    top: -80px;
+    left: -30%;
+    width: 300px;
+    height: 300px;
+    clip-path: circle(50%);
+    background-color: #2d4dda;
+    z-index: -1;
+}
+
+.circle-2 {
+    position: absolute;
+    top: -30px;
+    right: -10%;
+    width: 100px;
+    height: 100px;
+    clip-path: circle(50%);
+    background-color: #2d4dda;
+}
+
+.circle-3{
+    position: absolute;
+    bottom: -70px;
+    right: -15%;
+    width: 130px;
+    height: 130px;
+    clip-path: circle(50%);
+    background-color: #2d4dda;
+    z-index: -1;
+}
+
+/* ------------------------------------------ Quote Box -------------------------------------- */
+
+
+.quote-box{
+    overflow: hidden;
+    margin-top: -50px;
+    padding-top: -100px;
+    border-radius: 17px;
+    background-image: linear-gradient(to right, #26D0CE 0%, #1A2980 100%);
+    margin-top: 25px;
+    color:white;
+    width: 325px;
+    padding: 10px 30px;
+    margin: auto;
+    
+}
+
+.quotation-mark{
+    margin-top: -10px;
+    font-weight: bold;
+    font-size:70px;
+    padding-bottom: 30px;
+    color:white;
+    font-family: "Times New Roman", Georgia, Serif; 
+}
+
+.quote-text{
+    font-size: 19px;
+    margin-top: -65px;
+    padding-bottom: 20px;
+}
